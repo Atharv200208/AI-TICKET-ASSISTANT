@@ -1,0 +1,50 @@
+# === Node.js dependencies ===
+node_modules/
+
+# === Logs ===
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# === Environment variables ===
+.env
+.env.*.local
+
+# === OS generated files ===
+.DS_Store
+Thumbs.db
+
+# === VS Code ===
+.vscode/
+
+# === Build output ===
+dist/
+build/
+
+# === TypeScript ===
+*.tsbuildinfo
+
+# === Optional: Coverage output from test tools ===
+coverage/
+
+# === Optional: local database / SQLite ===
+*.sqlite
+*.sqlite3
+
+# === Optional: PM2 process manager logs ===
+pids/
+*.pid
+*.seed
+
+# === Optional: temporary files ===
+tmp/
+temp/
+
+# === Optional: Docker ===
+docker-compose.override.yml
+
+# === Optional: system generated ===
+*.swp
+*.swo
